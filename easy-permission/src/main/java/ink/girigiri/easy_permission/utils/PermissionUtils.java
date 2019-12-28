@@ -102,7 +102,7 @@ public class PermissionUtils {
         //反射调用
 
         Class<?> aClass = object.getClass();
-        Method[] methods = aClass.getMethods();
+        Method[] methods = aClass.getDeclaredMethods();
         for (Method method : methods) {
             boolean isHasAnnotation = method.isAnnotationPresent(annotationClass);
             if (isHasAnnotation) {
