@@ -4,7 +4,7 @@
  dependencies {
         classpath 'com.android.tools.build:gradle:3.5.3'
         //引用Maven库
-        classpath 'com.hujiang.aspectjx:gradle-android-plugin-aspectjx:2.0.8'
+        classpath 'com.hujiang.aspectjx:gradle-android-plugin-aspectjx:2.0.10'
         classpath 'com.github.dcendents:android-maven-gradle-plugin:2.1'
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
